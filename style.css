@@ -1,0 +1,100 @@
+.wow {
+  width: 100px;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+info-sub{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media(min-width:860px){
+    .hide-off{
+        display: none;
+    }
+}
+
+
+
+
+@media(min-width: 480px){
+    .responsive{
+        display: none;
+    }
+}
+
+@media(max-width : 720px){
+    .nonvis{
+        display: none;
+    }
+}
+
+
+
+ #c2 h1{
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+@media(min-width: 720px){
+    .resnav{
+        float: right !important;
+    }
+}
+
+
+.title1{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #05142F;
+    font-family:'Playfair Display';
+}
+
+@media(max-width: 392px){
+    #reach img{
+        width: 350px;
+        height: 230px;
+    }
+    .title1{
+        display: none;
+    }
+}
+
+@media(max-width: 414px){
+    #reach img{
+        width: 380px;
+        height: 250px;
+    }
+    .title1{
+        display: none;
+    }
+}
+
+@media(max-width: 468px){
+    #reach img{
+        width: 430px;
+        height: 290px;
+    }
+    .title1{
+        display: none;
+    }
+}
+
+@media(max-width:604px){
+    .title1{
+        display: none;
+    }
+}
+
+
